@@ -27,7 +27,7 @@
 /* About Us Section */
 
 .aboutImg{
-    background: url(/images/1.jpg) no-repeat center/cover;
+    background: url(../images/1.jpg) no-repeat center/cover;
 }
 .about-main .about-inner{
     display: grid;

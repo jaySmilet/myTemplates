@@ -1,0 +1,99 @@
+.bg-andhera{
+    background-color: rgba(128, 122, 122,.3);
+
+}
+.border1{
+    border: springgreen solid 1px;
+}
+#DropDown{
+    background-color: rgb(34, 32, 32);
+}
+#DropDown a:hover{
+    background: rgb(63, 59, 59);
+}
+#NavBar ul{
+    padding: 3px 0;
+}
+#NavBar ul li a{
+    color: white;
+}
+#NavBar ul li:hover{
+    background: rgb(44, 41, 41);
+}
+#NavBar ul li:active{
+    background: rgb(44, 41, 41);
+}
+
+/* About Us Section */
+
+.aboutImg{
+    background: url(/images/1.jpg) no-repeat center/cover;
+}
+.about-main .about-inner{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 10%;
+}
+
+/* Founder Desk Section */
+.founder-main{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-gap: 5%;
+}
+.founder-main .founderLeft .founderHead i{
+    margin: 6px 4px;
+}
+/* Contact Section */
+.contact-main .contact-grid{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    grid-gap: 5%;
+}
+.contact-main .contact-address .social-connect p a,.footer-bottom a{
+    padding: 0 3px;
+}
+.contact-main .contact-address .social-connect p a .fa-facebook-square,.fa-facebook-square{
+ color: #4267B2;   
+}
+.contact-main .contact-address .social-connect p a .fa-twitter-square,.fa-twitter-square{
+ color: #1DA1F2;   
+}
+.contact-main .contact-address .social-connect p a .fa-instagram,.fa-instagram{
+ color: #C13584;   
+}
+.contact-main .contact-address .social-connect p a .fa-youtube,.fa-youtube{
+ color: #FF0000;   
+}
+/* Gallery Section */
+.gallery-main .gallery-images-outer .gallery-images-inner{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+
+ h4 {
+    padding-bottom: 15px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  h4:before {
+    content: "";
+    width: 80%;
+    height: 3px;
+    background: rgb(32, 7, 122);
+    position: absolute;
+    bottom: 0;
+  }
+  
+   h4:after {
+    content: "";
+    width: 50%;
+    height: 3px;
+    background: red;
+    display: block;
+    position: absolute;
+    bottom: 0;
+  }

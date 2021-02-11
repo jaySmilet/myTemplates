@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header */
+#header p i{
+        font-size: 1.4rem;    
+}
+
+/* Nav Bar */
+nav{
+    width: 100%;
+    background: #00316b;
+
+}
+.burger{
+    width: 100%;
+    padding: 10px;
+    background: #001f44;
+    display: none;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background: #fff;
+}
+nav ul{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: red;
+}
+@media(max-width:800px){
+    .burger{
+        display: block;
+        cursor: pointer; 
+    }
+    nav ul{
+        width: 100%;
+        display: none;
+    }
+    nav ul li{
+        display: block;
+        text-align: center;
+    }
+    .active{
+        display: block;
+    }
+}
+/* Founder Desk */
+#founderDesk p{
+    font-size: 1.1rem;
+}
+/* Stats */
+#stats{
+    background: url(../img/1.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+#stats .boxStats{
+    border: 1px solid #fff;
+    transition: .5s;
+}
+#stats .boxStats:hover{
+    transform: scale(0.96);
+    cursor: pointer;
+}
+
+/* Upcoming Events */
+#upcomingEvents p{
+    font-size: 1.1rem;
+}
+
+/* Footer */
+#footer{
+    background: #00316b;
+    letter-spacing: 2px;
+}
+#footer .imageFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+#footer ul{
+    list-style: none;
+}
+#footer ul li:first-child{
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+#footer ul li a{
+    font-size: 1.3rem;
+    color: #fff;
+}
+#footer i{
+    color: #fff;
+    margin: 20px 7px;
+}
+
+@media(max-width:992px){
+    .md-none{
+        display: none;
+    }
+}
+

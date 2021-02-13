@@ -69,6 +69,10 @@ nav ul li:hover{
 #founderDesk p{
     font-size: 1.1rem;
 }
+/* Facility */
+#facility p{
+    font-size: 0.9rem;
+}
 /* Stats */
 #stats{
     background: url(../img/1.jpg) no-repeat center/cover;
